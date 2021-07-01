@@ -11,31 +11,31 @@ npm install react-wsx
 ```
 
 ### Props
-##### url:*string* - *required*
+#### url:*string* - *required*
 Websocket server URL.
 
-##### onMessage:*Function* - *required*
+#### onMessage:*Function* - *required*
 Function to handle messages received from socket.
 
-##### onConnect:*Function* 
+#### onConnect:*Function* 
 Function to perform additional tasks on socket connection.
 
-##### onDisconnect:*Function* 
+#### onDisconnect:*Function* 
 Function to perform additional tasks on socket disconnect.
 
-##### onError:*Function* 
+#### onError:*Function* 
 Function to handle socket error
 
-##### debug:*Boolean*
+#### debug:*Boolean*
 Prop to enable/disable all data,events from socket printing in console. Default value is **true**.
 
-##### reconnect:*Boolean*
+#### reconnect:*Boolean*
 Prop to enable/disable reconnect socket feature. Default value is **true**.
 
-##### reconnectInterval:*number*
+#### reconnectInterval:*number*
 Prop to specify interval for trying to reconnect socket (in **milliseconds**).
 
-##### reconnectAttempts:*number*
+#### reconnectAttempts:*number*
 Prop to specify the number of times socket connection should be attempted.
 
 # Usage
