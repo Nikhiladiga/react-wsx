@@ -39,7 +39,7 @@ Prop to specify interval for trying to reconnect socket (in **milliseconds**).
 Prop to specify the number of times socket connection should be attempted.
 
 # Usage
-```
+```ts
 import React, { Component } from 'react'
 import ReactWS from 'react-wsx'
 
