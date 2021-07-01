@@ -1,0 +1,30 @@
+{
+  "name": "react-wsx",
+  "version": "1.0.0",
+  "description": "A tiny websocket component for react",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build":"tsc -p ."
+  },
+  "keywords": [
+    "react",
+    "websocket",
+    "typescript",
+    "javascript"
+  ],
+  "author": "Nikhil Adiga",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Nikhiladiga/react-wsx"
+  },
+  "homepage": "https://github.com/Nikhiladiga/react-wsx",
+  "peerDependencies": {
+    "react":">=16.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.13",
+    "react": "^17.0.2"
+  }
+}
